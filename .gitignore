@@ -1,0 +1,48 @@
+# Raw audio and recordings - NEVER PUBLIC
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+
+# Participant-level/private data
+*participant_metadata*
+*participant-level*
+*participant_level*
+*consent*
+*exemption*
+*irb*
+
+# Credentials and secrets
+.env
+.env.*
+*.key
+*.pem
+*credentials*
+*secret*
+
+# R/RStudio temporary files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# OS/editor files
+Thumbs.db
+.DS_Store
+~$*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Private/full trial-level datasets
+analysis_model_ready.csv
+analysis_formant_model_ready.csv
+full_analysis_dataset.csv
+full_corpus_measurements.csv
